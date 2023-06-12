@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Styles/Login.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Login Screen</title>
+  </head>
+  <body>
+    <div class="gridbox">
+      <form action="" class="login-box">
+        <div class="user">
+          <div class="user-box">
+            <label for="fname" class="username">UserName</label>
+          </div>
+          <div class="user-box">
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              class="user-label"
+              placeholder="UserName"
+              required
+            />
+          </div>
+        </div>
+        <div class="pass">
+          <div class="pass-box">
+            <label for="password" class="password">Password</label>
+          </div>
+          <div>
+            <input
+              type="password"
+              id="password"
+              name="lname"
+              class="pass-label"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="eye">
+            <img class="eye-icon" src="Icons/Eye-Open.png" alt="eye-icon" />
+          </div>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" id="keep-singin" />Keep Me SignIn
+        </div>
+        <div class="button"><button class="submit">Submit</button></div>
+      </form>
+    </div>
+  </body>
+</html>
