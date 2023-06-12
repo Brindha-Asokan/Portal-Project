@@ -1,0 +1,89 @@
+body
+{
+    background-color: rgb(38, 47, 62);
+    height: 712px;
+    margin:0;
+    background: url(/Background-Pic/Pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* Full Grid Box */
+.full-box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Role Section */
+.section
+{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    align-items: center;
+    border-width: 1px;
+    padding-top: 100px;
+}
+.choose-role
+{
+    margin-right: 50px;
+    color: rgb(84, 85, 85);
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+}
+#role
+{
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(84, 85, 85);
+    color: white;
+    border-style: solid;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: border-color, opacity 0.15s ;
+    display: block;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray;
+}
+#role:active
+{
+    border-color:rgb(84, 85, 85) ;
+    border-width:2px ;
+    background-color: white;
+}
+#role:hover
+{
+    border-color:rgb(125, 126, 126) ;
+    opacity: 0.8;
+    box-shadow: 1px 1px 1px white;
+}
+#role option
+{
+    border-style: solid;
+    background-color:white ;
+    color: rgb(42, 54, 54);
+    opacity: 0.8;  
+}
+.roles:hover
+{
+    background-color:black ;
+}
+.continue
+{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    color:rgb(84, 85, 85);
+    background-color:white ;
+    border-style: solid;
+    border-color:rgb(84, 85, 85) ;
+    font-size: 25px;
+    font-weight: bold;
+}
+.continue:hover
+{
+    box-shadow: 3px 3px 3px rgb(84, 85, 85);
+}
